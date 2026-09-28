@@ -42,4 +42,5 @@ pub enum WhitelistError {
     NoAdminTransferPending = 51,
     /// Proposed admin is the same as the current admin (code 52).
     NewAdminSameAsCurrent = 52,
+    MigrationPending = 53,
 }
